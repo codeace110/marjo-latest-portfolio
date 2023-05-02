@@ -1,14 +1,4 @@
-/**
-* Template Name: iPortfolio
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -32,6 +22,71 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+
+h1{
+  font-weight: bolder;
+  color: rgb(34, 34, 82);
+  font-size: 32px;
+}
+
+.project-info {
+  margin-top: 20px;
+}
+
+.project-title {
+  font-weight: bolder;
+}
+
+.project-video {
+  width: 80vw;
+  height: 600px;
+}
+
+.demo-title {
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+.instructions {
+  font-weight: 600;
+  font-size: 25px;
+  color: rgba(25, 25, 102, 0.938);
+}
+
+.iframe-container {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: -20px;
+  margin-top: -100px;
+  position: relative;
+}
+
+.project-iframe {
+  width: 100vw;
+  height: 100vh;
+  transform: scale(0.7);
+  position: absolute;
+  right: 40px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.more-projects {
+  padding: 50px;
+  margin-top: -70px;
+}
+
+.more-projects h5 {
+  font-weight: bolder;
+  font-size: 25px;
+  color: rgb(34, 34, 82);
+}
+
+.more-projects a {
+  color: rgb(58, 58, 177);
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
