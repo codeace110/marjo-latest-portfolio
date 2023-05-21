@@ -65,7 +65,7 @@ h1{
   width: 100vw;
   height: 100vh;
   transform: scale(0.7);
-  position: absolute;
+  position: relative;
   right: 40px;
   top: 0;
   bottom: 0;
